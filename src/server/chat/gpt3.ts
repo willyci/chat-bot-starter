@@ -130,7 +130,7 @@ export const getReply = async (
   // Get the prompt and config from the Promptable API
   // (Optionally) replace this call with a local hard-coded prompt and config
   const data = await PromptableApi.getActiveDeployment({
-    promptId: "clcj7swlf00api6eg47wqszsi",
+    promptId: "cldn9plf40905i7eh1rkeg93r",
   });
 
   const prompt = formatPromptText(chatHistory, data.text);
